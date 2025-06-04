@@ -84,6 +84,7 @@
   max-width: 363px;
   width: 100%;
   height: auto;
+  min-height: 593px;
   background-image: url(./images/CardBgImage.png);
   background-size: cover;
   background-position: center;
