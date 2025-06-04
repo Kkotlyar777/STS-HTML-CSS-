@@ -1,0 +1,266 @@
+.MainWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.FirstPart {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+  max-width: 363px;
+  width: 100%;
+  height: auto;
+  background-image: url(./images/CardBgImage.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 25px;
+  box-sizing: border-box;
+  padding-left: 25px;
+  padding-right: 0;
+  padding-bottom: 15px;
+}
+
+.FirstPart-TopHeader {
+  display: flex;
+  flex: 1 1 100%;
+  height: 20px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.FirstPart-TopHeader__firstBlock {
+  background: #471010;
+  width: 60px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.FirstPart-TopHeader__centralBlock {
+  flex: 0 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: #471010 1px solid;
+  border-bottom: #471010 1px solid;
+  min-width: 0;
+}
+
+.Russian-Federation {
+  font-weight: 700;
+  font-size: 13px;
+  min-width: 190px;
+  text-align: center;
+  color: #471010;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.FirstPart-TopHeader__secondlBlock {
+  background: #471010;
+
+  max-width: 100%;
+  height: 20px;
+}
+
+.FirstPart-BotHeader {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  color: #471010;
+  margin-bottom: 8px;
+}
+
+.SecondPart {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+  max-width: 363px;
+  width: 100%;
+  height: auto;
+  background-image: url(./images/CardBgImage.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 15px;
+  box-sizing: border-box;
+  padding-left: 0;
+  padding-right: 25px;
+  padding-bottom: 15px;
+}
+
+.FirstPart-form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.FirstPart-form-group {
+  display: flex;
+  gap: 6px;
+  margin-right: 20px;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.FirstPart-form-group:last-child {
+  margin-right: 0;
+}
+
+.FirstPart-registry_number {
+  margin-bottom: 6px;
+  padding-right: 20px;
+  display: flex;
+  gap: 6px;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+}
+
+.FirstPart-VIN {
+  margin-bottom: 6px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.FirstPart-category {
+  margin-bottom: 6px;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  gap: 6px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+label {
+  font-size: 15px;
+  margin-bottom: 4px;
+  white-space: nowrap;
+}
+
+input {
+  font-size: 14px;
+  border: 1px solid #000000;
+  background: none;
+  height: 14px;
+  min-width: 0;
+  flex: 1;
+}
+
+.FirstPart-form-pass {
+  display: flex;
+  gap: 6px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin-bottom: 6px;
+}
+
+.FirstPart-form-passSeria {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.FirstPart-form-passId {
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  min-width: 70px;
+}
+
+.FirstPart-form-DL {
+  display: flex;
+  gap: 6px;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+
+.SecondPart-header {
+  margin-bottom: 16px;
+}
+
+.SecondPart-header img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+
+.SecondPart-DLWrapper {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #471010;
+  margin-bottom: 8px;
+}
+
+textarea {
+  background: none;
+  font-size: 14px;
+  border: 1px solid #000000;
+  height: 90px;
+}
+
+.SecondPart-Owner {
+  display: flex;
+  flex-direction: column;
+}
+
+.SecondPart-FormWrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  box-sizing: border-box;
+  width: 100%;
+  gap: 9px;
+}
+
+.SecondPart-Republic {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  width: 100%;
+}
+
+.SecondPart-formItem {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  width: 100%;
+  gap: 6px;
+}
+
+.SecondPart-house {
+  display: flex;
+  gap: 6px;
+  flex-wrap: nowrap;
+}
+
+.SecondPart-date {
+  display: flex;
+  gap: 6px;
+  margin-left: 30%;
+}
+
+@media (max-width: 350px) {
+  .FirstPart-TopHeader__firstBlock {
+    width: 30px;
+  }
+  .FirstPart-TopHeader__secondlBlock {
+    width: 60px;
+  }
+  .FirstPart-TopHeader__secondlBlock img {
+    width: 60px;
+    height: 20px;
+  }
+}
