@@ -10,18 +10,18 @@
   display: flex;
   flex-direction: column;
   flex: 1 1 100%;
-  max-width: 363px;
+  max-width: 7.5cm;
   width: 100%;
-  height: auto;
+  height: 10.5cm;
   background-image: url(./images/CardBgImage.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 25px;
+  padding-top: 10px;
   box-sizing: border-box;
-  padding-left: 25px;
+  padding-left: 10px;
   padding-right: 0;
-  padding-bottom: 15px;
+  padding-bottom: 8px;
 }
 
 .FirstPart-TopHeader {
@@ -29,12 +29,12 @@
   flex: 1 1 100%;
   height: 20px;
   width: 100%;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .FirstPart-TopHeader__firstBlock {
   background: #471010;
-  width: 60px;
+  width: 40px;
   height: 20px;
   flex-shrink: 0;
 }
@@ -51,7 +51,7 @@
 
 .Russian-Federation {
   font-weight: 700;
-  font-size: 13px;
+  font-size: 10px;
   min-width: 190px;
   text-align: center;
   color: #471010;
@@ -63,7 +63,6 @@
 
 .FirstPart-TopHeader__secondlBlock {
   background: #471010;
-
   max-width: 100%;
   height: 20px;
 }
@@ -81,19 +80,18 @@
   display: flex;
   flex-direction: column;
   flex: 1 1 100%;
-  max-width: 363px;
+  max-width: 7.5cm;
   width: 100%;
-  height: auto;
-  min-height: 593px;
+  height: 10.5cm;
   background-image: url(./images/CardBgImage.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 15px;
+  padding-top: 8px;
   box-sizing: border-box;
   padding-left: 0;
-  padding-right: 25px;
-  padding-bottom: 15px;
+  padding-right: 16px;
+  padding-bottom: 8px;
 }
 
 .FirstPart-form-container {
@@ -101,37 +99,45 @@
   flex-direction: column;
 }
 
+.FirstPart-BotHeader__txt {
+  font-weight: 700;
+  font-size: 13px;
+  text-align: center;
+  color: #471010;
+}
+
 .FirstPart-form-group {
   display: flex;
   gap: 6px;
   margin-right: 20px;
-  margin-bottom: 6px;
+  margin-bottom: 0px;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-
-.FirstPart-form-group:last-child {
-  margin-right: 0;
+  align-items: center;
+  height: 18px;
 }
 
 .FirstPart-registry_number {
-  margin-bottom: 6px;
+  margin-bottom: 0px;
   padding-right: 20px;
   display: flex;
   gap: 6px;
   box-sizing: border-box;
   flex-wrap: nowrap;
+  align-items: center;
+  align-items: center;
+  height: 18px;
 }
 
 .FirstPart-VIN {
-  margin-bottom: 6px;
   display: flex;
   flex-direction: column;
   margin-right: 20px;
+  height: 34px;
 }
 
 .FirstPart-category {
-  margin-bottom: 6px;
+  margin-bottom: 0;
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
@@ -140,19 +146,19 @@
   box-sizing: border-box;
 }
 
-label {
+.STS-label {
   font-size: 15px;
-  margin-bottom: 4px;
   white-space: nowrap;
 }
 
-input {
-  font-size: 14px;
+.STS_form_input {
+  font-size: 12px;
   border: 1px solid #000000;
   background: none;
-  height: 14px;
+  height: 12px;
   min-width: 0;
   flex: 1;
+  padding: 0;
 }
 
 .FirstPart-form-pass {
@@ -160,7 +166,7 @@ input {
   gap: 6px;
   padding-right: 20px;
   box-sizing: border-box;
-  margin-bottom: 6px;
+  margin-bottom: o;
 }
 
 .FirstPart-form-passSeria {
@@ -185,7 +191,7 @@ input {
 }
 
 .SecondPart-header {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .SecondPart-header img {
@@ -202,14 +208,14 @@ input {
   font-size: 18px;
   font-weight: 600;
   color: #471010;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
-textarea {
+.STS-textarea {
   background: none;
   font-size: 14px;
   border: 1px solid #000000;
-  height: 90px;
+  height: 40px;
 }
 
 .SecondPart-Owner {
@@ -223,7 +229,7 @@ textarea {
   padding-left: 25px;
   box-sizing: border-box;
   width: 100%;
-  gap: 9px;
+  gap: 6px;
 }
 
 .SecondPart-Republic {
