@@ -1,4 +1,4 @@
-.MainWrapper {
+body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,12 +59,14 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .FirstPart-TopHeader__secondlBlock {
   background: #471010;
   max-width: 100%;
   height: 20px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .FirstPart-BotHeader {
@@ -87,7 +89,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 8px;
+  padding-top: 2px;
   box-sizing: border-box;
   padding-left: 0;
   padding-right: 16px;
@@ -149,6 +151,8 @@
 .STS-label {
   font-size: 15px;
   white-space: nowrap;
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .STS_form_input {
@@ -191,14 +195,34 @@
 }
 
 .SecondPart-header {
+  display: flex;
   margin-bottom: 8px;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
 }
 
-.SecondPart-header img {
-  width: 100%;
-  height: auto;
-  display: block;
-  max-width: 100%;
+.SecondPart-header_firstCont {
+  height: 20px;
+  width: 65px;
+  background: #471010;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SecondPart-header_Cont {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+.SecondPart-header_secondCont {
+  height: 30px;
+  width: 110px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .SecondPart-DLWrapper {
@@ -209,6 +233,7 @@
   font-weight: 600;
   color: #471010;
   margin-bottom: 4px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .STS-textarea {
