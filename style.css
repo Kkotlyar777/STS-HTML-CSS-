@@ -150,21 +150,21 @@ body {
 
 .STS-label {
   all: initial;
-  font-size: 15px;
-  white-space: nowrap;
+  font-size: 15px !important;
+  white-space: nowrap !important;
   color: #000000;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif !important;
 }
 
 .STS_form_input {
   all: initial;
-  font-size: 12px;
-  border: 1px solid #000000;
+  font-size: 12px !important;
+  border: 1px solid #000000 !important;
   background: none;
-  height: 12px;
+  height: 12px !important;
   min-width: 0;
   flex: 1;
-  padding: 0;
+  padding: 0 !important;
 }
 
 .FirstPart-form-pass {
@@ -241,9 +241,9 @@ body {
 .STS-textarea {
   all: initial;
   background: none;
-  font-size: 14px;
-  border: 1px solid #000000;
-  height: 40px;
+  font-size: 14px !important;
+  border: 1px solid #000000 !important;
+  height: 40px !important;
 }
 
 .SecondPart-Owner {
